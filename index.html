@@ -70,6 +70,11 @@
             [class=interests] header {
                 font-size: 1.25em;
             }
+            [class=conatiner2] {
+                color: blue;
+                font-family: arial;
+            }
+            
         </style>
     </head>
     
@@ -85,6 +90,7 @@
             </nav>
             
             <main>
+               
                 <div class="sidebar">
                     
                     <img src="https://i.ytimg.com/vi/10dqgKqKxp8/hqdefault.jpg">
@@ -108,6 +114,28 @@
             </div>
             
             </main>
+            <main class="container2">
+                   <div class="professional-content">
+                       <header>Professional Interests</header>
+                       <section class="interests">
+                           <button>Press Me!</button>
+                           <ul class="professional-interests">
+                               <li>Learn More Coding Languages.</li>
+                               <li>Go to College.</li>
+                               <li>Get a Job.</li>
+                           </ul>
+                           
+                       </section>
+                      </div>
+               </main>
         </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                  $("ul.professional-interests").toggle();
+        });
+    });
+    </script>
     </body>
 </html>
