@@ -1,0 +1,57 @@
+/* Website colors */
+:root {
+    --highlight-color-primary: #66fcf1;
+    --highlight-color-secondary: #45a29e;
+    --background-color-dark: #0b0c10;
+    --background-color-light: #1d2833;
+    --text-color-: #c5c6c7;
+}
+
+body {
+    background-color: var(--background-color-dark);
+}
+
+/* Navbar Section */
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background: linear-gradient(120deg, var(--background-color-dark), var(--background-color-light), var(--highlight-color-secondary));
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: var(--text-color-);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: black;
+}
+
+.navbar li a:active{
+    background-color: black;
+}
+
+/* About me Section */
+#aboutmeTitle {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 32px;
+    color: var(--highlight-color-primary);
+}
+
