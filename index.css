@@ -16,66 +16,73 @@ body {
     background-color: var(--background-color-dark);
 }
 
-/* Navbar Section */
-.navbar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
+/* Start Navbar Section */
+.navbar {
+    z-index: 1;
     width: 100%;
     position: fixed;
     overflow: hidden;
-    background: linear-gradient(120deg, var(--background-color-dark), var(--background-color-light), var(--highlight-color-secondary));
+    background: var(--background-color-dark);
 }
 
-.navbar li{
+.navbar a{
     float: left;
-}
-
-.navbar li a{
-    display: block;
-    color: var(--text-color-);
-    text-align: center;
     font-size: 22px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    display: inline;
+    text-align: center;
+    color: var(--text-color-);
+    padding: 14px 16px;
     text-decoration: none;
+    
 }
 
-.navbar li a:hover {
+.navbar a:hover {
     background-color: black;
 }
 
-.navbar li a:active{
+.navbar a:active{
     background-color: black;
 }
-/* Title Section */
-#nameTitle {
-    padding-top: 2rem;
+/* End Navbar Section */
+
+/* Start Title Section */
+#Title{
+    padding-top: 5%;
+}
+
+#Jordan {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10%;
     color: var(--text-color-);
     text-align: center;
     font-size: 32px;
 }
-
-/* End Title Section
+/* End Title Section */
 
 /* About me Section */
+
+#AboutMe {
+    display: flex;
+    flex-direction: column;
+}
+
 #aboutmeTitle {
     margin-top: 30%;
     text-align: center;
+    padding: 2%;
     font-size: 32px;
     color: var(--text-color-);
 }
 
-#aboutmeSection hr{
+
+#divisionLine {
     background: var(--highlight-color-secondary);
     padding-top: 5px;
     padding-bottom: 5px;
     border: 1px var(--highlight-color-secondary);
-    margin-top: 1%;
+    margin-top: -2%;
     margin-bottom: 2%;
     width: 100%;
     padding-left: 20%;
@@ -88,5 +95,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
+ 
 
 /* End About me Section */
