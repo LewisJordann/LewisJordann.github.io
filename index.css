@@ -7,6 +7,7 @@
     --text-color-: #c5c6c7;
 }
 
+/* Start Global Resources */
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -14,7 +15,21 @@ html {
 
 body {
     background-color: var(--background-color-dark);
+    margin: 0;
 }
+
+#divisionLine {
+    background: linear-gradient(135deg, var(--highlight-color-primary), var(--highlight-color-secondary) , var(--highlight-color-primary));
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    margin-top: -2%;
+    margin-bottom: 2%;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+/* End Global Resources */
 
 /* Start Navbar Section */
 .navbar {
@@ -59,6 +74,13 @@ body {
     text-align: center;
     font-size: 32px;
 }
+
+#titleParagraph {
+    text-align: center;
+    color: var(--text-color-);
+    font-size: 26px;
+
+}
 /* End Title Section */
 
 /* About me Section */
@@ -69,24 +91,10 @@ body {
 }
 
 #aboutmeTitle {
-    margin-top: 30%;
     text-align: center;
-    padding: 2%;
+    padding: 5% 15%;
     font-size: 32px;
     color: var(--text-color-);
-}
-
-
-#divisionLine {
-    background: var(--highlight-color-secondary);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 1px var(--highlight-color-secondary);
-    margin-top: -2%;
-    margin-bottom: 2%;
-    width: 100%;
-    padding-left: 20%;
-    padding-right: 20%;
 }
 
 #aboutmeParagraph{
@@ -96,5 +104,17 @@ body {
     margin-right: 10%;
 }
  
-
 /* End About me Section */
+
+/* Start Projects Section */
+#Projects {
+    display: flex;
+    flex-direction: column;
+}
+
+#projectsTitle {
+    text-align: center;
+    padding: 5% 15%;
+    font-size: 32px;
+    color: var(--text-color-);
+}
