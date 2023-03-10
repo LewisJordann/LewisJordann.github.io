@@ -39,7 +39,7 @@ body {
     background: var(--background-color-dark);
 }
 
-.navbar a{
+.navbar_item{
     float: left;
     font-size: 22px;
     display: inline;
@@ -47,16 +47,16 @@ body {
     color: var(--text-color-);
     padding: 14px 16px;
     text-decoration: none;
-    
 }
 
-.navbar a:hover {
+.navbar_item:hover {
     background-color: black;
 }
 
-.navbar a:active{
+.navbar_item:active{
     background-color: black;
 }
+
 /* End Navbar Section */
 
 /* Start Title Section */
@@ -78,6 +78,8 @@ body {
     text-align: center;
     color: var(--text-color-);
     font-size: 26px;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 /* End Title Section */
