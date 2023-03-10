@@ -35,15 +35,15 @@
         <section>
             <div id="AboutMe">
                 <h1 id="aboutmeTitle">About Me</h1>
-                <hr id="divisionLine">
-                <p id="aboutmeParagraph">
+                <hr class="divisionLine">
+                <p class="aboutmeParagraph">
                     From an early age I've been a problem solver. I have a passion for creating innovative solutions to complex problems. I belive collaborating with different minds helps
                     me grow as a thinker. 
                 </p>
-                <p id="aboutmeParagraph">
+                <p class="aboutmeParagraph">
                     I have experience with multiple programming languages like Python, Java, C/C++, and C#. I am practicing my web design and mobile app development with various projects.
                 </p>
-                <p id="aboutmeParagraph">
+                <p class="aboutmeParagraph">
                     In my free time, I enjoy researching, designing, and implementing car audio systems. 
                     From designing subwoofer boxes, to installing and tuning amplifiers. I hope to visit audio shows in the future!
                 </p>
@@ -55,11 +55,42 @@
         <section>
             <div id="Projects">
                 <h1 id="projectsTitle">Projects</h1>
-                <hr id="divisionLine">
-                <p id="aboutmeParagraph">
+                <hr class="divisionLine">
 
+                <!-- Project 1 -->
+                <h2 class="project-header"><a href="https://github.com/vynleran/senior-capstone-project">STRapp - Seizure Technical Responce Application</a></h2>
+                <h3 class="technologies">Java | XML | Python | Arduino</h3>
+                <p class="projectDesc">
+                    Seizure Technical Response app, STRapp, is a user-friendly Android application that connects to a custom-built wristband via Bluetooth. 
+                    It allows individuals with epilepsy and other seizure disorders to alert their emergency contacts automatically when a seizure has been detected based on data received from the wristband. 
+                    The wristband currently includes three sensors, which are electrodermal activity (EDA), accelerometer, and heart rate. Seizure detection is implemented on a backend server that processes data recordings using data mining algorithms. 
+                    Once a seizure has been detected, a help request is sent from the STRapp. Help requests can also be sent manually if immediate help is needed or if help might be needed soon. 
+                    Also, if the duration of a seizure is longer than a user-determined time, then emergency services are automatically contacted. 
+                    Seizures can also be recorded automatically or manually by the user. This allows the user to export this data and forward it to their medical professional. 
+                    Moreover, the user can view their vitals in real-time. By knowing this information, the individual has the ability to verify their suspicions regarding a likely seizure. 
+                    STRapp aims to provide peace of mind to individuals who suffer from seizure disorders.
+                </p>
+
+                <!-- Project 2 -->
+                <h2 class="project-header"><a href="https://github.com/LewisJordann/SecretSanta">Secret Santa Website</a></h2>
+                <h3 class="technologies">HTML | CSS | JavaScript | Flask</h3>
+                <p class="projectDesc">
+                    I am designing a website for families or groups of people to easliy set up their own secret santa for the holidays.
+                    The event creator will be able to add people to the event along with their email or phone number. Once everyone is added to the event, the creator will
+                    press a button and either an email or text message will be sent out to the participants on who they need to purchase a gift for. This project is current under development
+                    and is expected to be finished by Christmas 2023!
+                </p>
+
+                <!-- Project 3 -->
+                <h2 class="project-header"><a href="https://github.com/LewisJordann/HeartAttack-Prediction">Heart Attack Prediction Analysis</a></h2>
+                <h3 class="technologies">Python PANDAS</h3>
+                <p class="projectDesc">
+                    Apart of an advanced data mining class, my group was tasked with analysing an existing dataset and analysis on heart attack prediction from kaggle. 
+                    Following the CRISP-DM, we verified that the original analysis was correct.
+                    Then using LIME (Local Interpretable Model-Agnostic Explanations), we analyzed the 7 different models and determined which ones would make the most sense for detecting heart attacks based on the given dataset.
                 </p>
             </div>
+
         </section>
         <!-- TODO -->
 

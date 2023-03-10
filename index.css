@@ -18,12 +18,12 @@ body {
     margin: 0;
 }
 
-#divisionLine {
+.divisionLine {
     background: linear-gradient(135deg, var(--highlight-color-primary), var(--highlight-color-secondary) , var(--highlight-color-primary));
     padding-top: 5px;
     padding-bottom: 5px;
     border: none;
-    margin-top: -2%;
+    margin-top: -3%;
     margin-bottom: 2%;
     width: 100%;
     padding-left: 20%;
@@ -84,7 +84,6 @@ body {
 /* End Title Section */
 
 /* About me Section */
-
 #AboutMe {
     display: flex;
     flex-direction: column;
@@ -97,13 +96,12 @@ body {
     color: var(--text-color-);
 }
 
-#aboutmeParagraph{
+.aboutmeParagraph{
     color: var(--text-color-);
     font-size: 26px;
     margin-left: 10%;
     margin-right: 10%;
 }
- 
 /* End About me Section */
 
 /* Start Projects Section */
@@ -118,3 +116,29 @@ body {
     font-size: 32px;
     color: var(--text-color-);
 }
+
+.project-header{
+    text-align: center;
+    font-size: 30px;
+    color: var(--text-color-);
+}
+
+.project-header a{
+    color: var(--text-color-);
+}
+
+.technologies{
+    text-align: center;
+    font-size: 26px;
+    color: var(--text-color-);
+    margin-top: -1%;
+}
+
+.projectDesc{
+    text-align: center;
+    font-size: 22px;
+    color: var(--text-color-);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* End Projects Section */
