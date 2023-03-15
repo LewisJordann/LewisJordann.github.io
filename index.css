@@ -19,7 +19,7 @@ body {
 }
 
 .divisionLine {
-    background: linear-gradient(135deg, var(--highlight-color-primary), var(--highlight-color-secondary) , var(--highlight-color-primary));
+    background: linear-gradient(135deg,  var(--highlight-color-secondary) , var(--highlight-color-primary), var(--highlight-color-secondary) , var(--highlight-color-primary),  var(--highlight-color-secondary));
     padding-top: 5px;
     padding-bottom: 5px;
     border: none;
@@ -57,6 +57,16 @@ body {
     background-color: black;
 }
 
+#random-color-gen{
+    float: right;
+    background: var(--background-color-dark);
+    font-size: 18px;
+    border: none;
+}
+
+#random-color-gen:hover {
+    background-color: black;
+}
 /* End Navbar Section */
 
 /* Start Title Section */
